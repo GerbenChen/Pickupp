@@ -1,0 +1,52 @@
+{
+    "Default": {
+        "tier_name": "QA Tier Test",
+        "max_weight": "",
+        "max_concurrent_trip": "",
+        "commission_rate": "0",
+        "is_visible": true,
+        "is_vehicle": true,
+        "can_batch": false,
+        "can_fragile": false,
+        "can_cod": "",
+        "dispatch_radius": 0,
+        "average_speed": 0,
+        "core": "",
+        "pool_radius": 0,
+        "penalty_rate": "0",
+        "admin": false,
+        "can_prematch": true,
+        "is_non_bidding": false,
+        "can_accept_job": true,
+        "pay_on_success": "",
+        "fragile_cap": 100,
+        "tier_public_name": "QA Tier Test",
+        "max_width": "",
+        "max_height": "",
+        "max_length": "",
+        "weight_threshold": "",
+        "type_name": "Tier Tony",
+        "type_public_name": "Tier Tony",
+        "rank": 2,
+        "tier_requirement": {
+            "required_points": 0,
+            "required_ontime": 0,
+            "required_rating": 0,
+            "maintain_points": 0
+        },
+        "max_volume": 100000,
+        "display_image": "",
+        "display_name": {
+            "en": "",
+            "zh": "",
+            "ms": ""
+        },
+        "display_description": {
+            "en": "",
+            "zh": "",
+            "ms": ""
+        },
+        "max_cod_amount": 1000,
+        "fix_pay": "0"
+    }
+}

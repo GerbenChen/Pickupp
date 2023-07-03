@@ -1,0 +1,1569 @@
+{
+    "Standard": {
+        "service_offering": {
+            "id": "39218b29-de64-42d1-8843-1363300ae5fd",
+            "name": "[AutoQA] Standard Order",
+            "service_type": "next_day",
+            "service_time": 2,
+            "is_default": false,
+            "enabled": true,
+            "earliest_pickup_id": "e6833000-a29a-4aea-ae44-90f48014aab7",
+            "latest_pickup_id": "ccc62c6c-893b-4d26-b78f-b8580b7b6f55",
+            "earliest_dropoff_id": "14124cc6-e7b1-4778-a47d-4dac63d0d54b",
+            "latest_dropoff_id": "d6704efc-ee49-4d0b-84c6-e00d18c8de8d",
+            "pricing_id": "5ae5d3d1-1058-4d98-89b0-feceb6803e20",
+            "order_flow_id": "",
+            "display_name": {
+                "en": "[AutoQA] Standard Order",
+                "zh": "[AutoQA] 標準物流",
+                "ms": "",
+                "vi": "",
+                "th": ""
+            }
+        },
+        "grouped_configurations": {
+            "configurations": [
+                {
+                    "id": "f37a81b7-1f3b-4dc8-b3f1-7c2b246d7b39",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "allow_unable_to_pickup",
+                    "value": ""
+                },
+                {
+                    "id": "f9d6825b-cca2-40ad-96bf-83eec44cce24",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "disable_contact_sender",
+                    "value": "false"
+                },
+                {
+                    "id": "0c167d53-7173-444c-bf83-989430c4d2eb",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "pickup_geolocation",
+                    "value": "false"
+                },
+                {
+                    "id": "ae8dd67a-1cda-4355-be54-591b3b6ec262",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "pickup_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "e6d9cab8-4091-402a-b685-f4c9b66c27cc",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "pickup_qr_or_passcode",
+                    "value": "false"
+                },
+                {
+                    "id": "21e7399e-76c8-4d06-b1f8-14cc00aa0f58",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "pickup_call_log",
+                    "value": "false"
+                },
+                {
+                    "id": "e6bc41f5-d9f1-4ddb-8fe9-140edadf25d6",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "pickup_reported_sub_order_count",
+                    "value": "false"
+                },
+                {
+                    "id": "ebc5f204-e943-484b-8c2f-f2e2ca82b183",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "disable_back_to_pickup_point",
+                    "value": "false"
+                },
+                {
+                    "id": "17c19fef-375d-408c-9ed7-fcd784a1c0d4",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "disable_contact_recipient",
+                    "value": "false"
+                },
+                {
+                    "id": "bc9e0a62-a6b1-4503-aab2-f00d888f2894",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "disable_drop_off",
+                    "value": "false"
+                },
+                {
+                    "id": "0b2bd7d0-7e75-455a-9d7b-9dd23fcb2b06",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "disable_no_signature",
+                    "value": "false"
+                },
+                {
+                    "id": "4d719a5c-dde1-483b-a372-69c80bcb79f7",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "disable_reschedule",
+                    "value": "false"
+                },
+                {
+                    "id": "ae0f9172-5bb3-4b7e-94cc-42e28f1fa615",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "enable_self_collection",
+                    "value": "false"
+                },
+                {
+                    "id": "938e457f-18ef-4910-a68e-ade7adfad509",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "dropoff_geolocation",
+                    "value": "false"
+                },
+                {
+                    "id": "1ec76d68-aef5-4805-8110-a5f7d9245a7f",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "dropoff_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "eacef724-fc76-4aec-9593-9e09c0f78712",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "dropoff_qr_or_passcode",
+                    "value": "false"
+                },
+                {
+                    "id": "69c641a9-c015-4aa0-933e-1456b158786a",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "dropoff_signature_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "c091f19f-b36e-43fa-ae81-c693911da1c5",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "dropoff_recipient_verify_code",
+                    "value": "false"
+                },
+                {
+                    "id": "1ccf57b3-bfab-4d7c-8544-a8b8556ecdb0",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "freight_collect",
+                    "value": "false"
+                },
+                {
+                    "id": "f62dc156-ccc0-45e3-a4dc-4983bbb5b288",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "can_outsource",
+                    "value": "false"
+                },
+                {
+                    "id": "69a95d3e-aeef-4237-b0fb-13b890b30929",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "outsource_partners",
+                    "value": ""
+                },
+                {
+                    "id": "bcea8962-2d50-4ed9-8f86-cb409d68c685",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "min_cod",
+                    "value": "0"
+                },
+                {
+                    "id": "09d9eafe-a442-4aa2-abb3-44e17274f8a6",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "max_cod",
+                    "value": "0"
+                },
+                {
+                    "id": "50e075ba-39b6-4090-be22-8465faa6c7ea",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "always_reliable",
+                    "value": "false"
+                },
+                {
+                    "id": "e2f69875-5c0d-4114-a237-c0f913d6b83e",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "prevent_duplicate_crn",
+                    "value": "false"
+                },
+                {
+                    "id": "c4fa6b47-cad0-465c-a483-2242d6468cca",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "enable_bundle_order",
+                    "value": "false"
+                },
+                {
+                    "id": "85b13404-4c00-4573-be0e-f45d0fcb16d9",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "pickup_country",
+                    "value": "HK"
+                },
+                {
+                    "id": "d8b2d595-a2d5-4257-b7f2-2de2367d1798",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "dropoff_country",
+                    "value": ""
+                },
+                {
+                    "id": "c8a4917f-1a21-4b43-b0eb-91505fc4ca9c",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "release_time",
+                    "value": ""
+                },
+                {
+                    "id": "40ef9c8e-6f9a-4470-89c8-fd758631335b",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "shipping_fee",
+                    "value": "0"
+                },
+                {
+                    "id": "b864bcd6-7144-4b33-a3fd-9c33397d5b7e",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "free_shipping_threshold",
+                    "value": ""
+                },
+                {
+                    "id": "e105e3e6-66d8-45cf-8bef-5cc990b5697b",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "pickup_expiry_time",
+                    "value": ""
+                },
+                {
+                    "id": "965b31fb-e2e5-4102-b2ec-560576358f2b",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "allow_vehicle_selection",
+                    "value": "false"
+                },
+                {
+                    "id": "8f0aa6a3-70fe-45e0-98ac-9ba5e62ed468",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "agent_tiers",
+                    "value": "[]"
+                },
+                {
+                    "id": "f0f2d7e4-3d69-43e6-829c-ada3e30f82ba",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "multi_stop_pricings",
+                    "value": "[]"
+                },
+                {
+                    "id": "10e9f2a4-0297-4e52-a83d-bed820d0970d",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "standard_dropoff_types",
+                    "value": ""
+                },
+                {
+                    "id": "87f816df-d3d8-4d4e-b59b-625eeb3db545",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "self_pickup_store_types",
+                    "value": ""
+                },
+                {
+                    "id": "a507108c-301f-4e94-ac78-47402316d8b3",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "warehouse",
+                    "value": ""
+                },
+                {
+                    "id": "4b30c591-d78f-4cee-8cdf-dd9955b40b6a",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "address_type",
+                    "value": "{\"default\":\"\",\"residential\":\"\",\"commercial\":\"\",\"industrial\":\"\"}"
+                },
+                {
+                    "id": "85418e58-c3c0-4ab5-b9a1-d06d069cedf9",
+                    "type": "service_offering",
+                    "type_id": "39218b29-de64-42d1-8843-1363300ae5fd",
+                    "key": "geofence_list",
+                    "value": "[]"
+                }
+            ]
+        },
+        "service_offering_order_flows": {
+            "added": [
+                "39218b29-de64-42d1-8843-1363300ae5fd"
+            ],
+            "removed": []
+        }
+    },
+    "International_Express": {
+        "service_offering": {
+            "id": "96cf61e7-87a1-4d2d-867a-808161568979",
+            "name": "[AutoQA] International Express Order",
+            "service_type": "international_express",
+            "service_time": 0,
+            "is_default": false,
+            "enabled": true,
+            "earliest_pickup_id": "3ae98c40-b582-40ef-9ca0-b9c457e95468",
+            "latest_pickup_id": "bf196319-6fae-48e1-8f3e-08c4d43e035c",
+            "earliest_dropoff_id": "c30bc26d-f27c-472a-af7b-7d7d3bd94692",
+            "latest_dropoff_id": "a906e4a9-ef3a-4a46-ba45-5951db61f59e",
+            "pricing_id": "8c9611d6-2915-4960-8240-b1f2057f9d5a",
+            "order_flow_id": "",
+            "display_name": {
+                "en": "[AutoQA] International Express Order",
+                "zh": "[AutoQA] 跨國快遞訂單",
+                "ms": "",
+                "vi": "",
+                "th": ""
+            }
+        },
+        "grouped_configurations": {
+            "configurations": [
+                {
+                    "id": "7df3a389-5e24-4a48-8faa-9a80aee7e92c",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "allow_unable_to_pickup",
+                    "value": ""
+                },
+                {
+                    "id": "a485ff2f-7615-406b-b9ac-0293a969419b",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "disable_contact_sender",
+                    "value": "false"
+                },
+                {
+                    "id": "3dce4f97-a85d-4fd1-9ad3-dbf0b7b6717e",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "pickup_geolocation",
+                    "value": "false"
+                },
+                {
+                    "id": "ea4c80aa-c9c6-4eab-9c1e-76b5e007742d",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "pickup_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "9bdabc6a-7dc9-4a60-a19e-f615657cc4c1",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "pickup_qr_or_passcode",
+                    "value": "false"
+                },
+                {
+                    "id": "70f3a156-ac01-48a6-a7c1-7b82a1d1fa6d",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "pickup_call_log",
+                    "value": "false"
+                },
+                {
+                    "id": "9c7ccaa0-7a61-48bf-a984-888b1b8eb601",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "pickup_reported_sub_order_count",
+                    "value": "false"
+                },
+                {
+                    "id": "976f0db6-2e7f-4575-8e48-4da052f18bd8",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "disable_back_to_pickup_point",
+                    "value": "false"
+                },
+                {
+                    "id": "ff93b053-a058-4c44-b022-8cce3751aeda",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "disable_contact_recipient",
+                    "value": "false"
+                },
+                {
+                    "id": "ccb2e320-095f-4964-a155-81332af5086f",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "disable_drop_off",
+                    "value": "false"
+                },
+                {
+                    "id": "cd5a3438-918e-4a68-bc5a-452cfcb82ca4",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "disable_no_signature",
+                    "value": "false"
+                },
+                {
+                    "id": "12247643-e041-40f2-b17a-eeb537a8486a",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "disable_reschedule",
+                    "value": "false"
+                },
+                {
+                    "id": "b505bb2b-147a-41b3-bad2-ba09c92833ba",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "enable_self_collection",
+                    "value": "false"
+                },
+                {
+                    "id": "83f418bc-281f-47e5-9121-1963eb4bc298",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "dropoff_geolocation",
+                    "value": "false"
+                },
+                {
+                    "id": "0a5fd8f8-6397-42ae-80a8-b04a0ebbf046",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "dropoff_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "b145e7d1-79fc-49d1-b120-81b91ca01d2f",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "dropoff_qr_or_passcode",
+                    "value": "false"
+                },
+                {
+                    "id": "e493471d-3a1c-406e-865e-85217765d728",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "dropoff_signature_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "e8164dce-7928-4c38-b200-da944b396eba",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "dropoff_recipient_verify_code",
+                    "value": "false"
+                },
+                {
+                    "id": "2ad84e2f-31c8-4418-bad8-bc1192fd664b",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "freight_collect",
+                    "value": "false"
+                },
+                {
+                    "id": "91d9f2fb-ea61-487e-b98f-64a197457bfe",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "can_outsource",
+                    "value": "true"
+                },
+                {
+                    "id": "f435caf3-628e-45f2-8e44-71202f19f239",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "outsource_partners",
+                    "value": "ups_express_saver"
+                },
+                {
+                    "id": "a060e567-095f-4219-b7fb-99de32142374",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "min_cod",
+                    "value": "0"
+                },
+                {
+                    "id": "ddbba2ad-f871-498f-bae4-a2dd7e30dc93",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "max_cod",
+                    "value": "0"
+                },
+                {
+                    "id": "928fa47a-1f51-4a88-9168-fda633f8c7b9",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "always_reliable",
+                    "value": "false"
+                },
+                {
+                    "id": "0325c265-b725-4860-a189-a801e9e4f4c9",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "prevent_duplicate_crn",
+                    "value": "false"
+                },
+                {
+                    "id": "999bd0ec-7c4e-4454-952a-0bcbfc5559ee",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "enable_bundle_order",
+                    "value": "false"
+                },
+                {
+                    "id": "7f35fd3c-0964-4dfd-961e-49d8b52482e0",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "pickup_country",
+                    "value": "HK"
+                },
+                {
+                    "id": "d79aa02e-a52b-46d1-8fc0-b5ba29361f3b",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "dropoff_country",
+                    "value": "TW"
+                },
+                {
+                    "id": "983d4e28-a705-424a-accc-84f4aab1560c",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "release_time",
+                    "value": ""
+                },
+                {
+                    "id": "67fcb547-17fc-476f-8551-1df843f92bd0",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "shipping_fee",
+                    "value": "0"
+                },
+                {
+                    "id": "eb6e57b2-3e47-4ffd-a608-d5107414b039",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "free_shipping_threshold",
+                    "value": ""
+                },
+                {
+                    "id": "a9177382-5174-41fb-b994-9b07cd174b06",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "pickup_expiry_time",
+                    "value": ""
+                },
+                {
+                    "id": "b2fa4409-76f7-4507-96d6-3efff84c5dcb",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "allow_vehicle_selection",
+                    "value": "false"
+                },
+                {
+                    "id": "225d1f31-bc6d-475a-88e6-25f936b6d2b3",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "agent_tiers",
+                    "value": "[]"
+                },
+                {
+                    "id": "f60c5f42-74c6-4978-a772-34847390a721",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "multi_stop_pricings",
+                    "value": "[]"
+                },
+                {
+                    "id": "6d12170d-20f8-4fa5-bd20-a2f36be7f98f",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "standard_dropoff_types",
+                    "value": ""
+                },
+                {
+                    "id": "8d6e180d-2241-41c5-ba3d-b8ee921ff2cc",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "self_pickup_store_types",
+                    "value": ""
+                },
+                {
+                    "id": "e6a8ea07-1cae-4be9-9e91-dfc8c80a00dc",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "warehouse",
+                    "value": ""
+                },
+                {
+                    "id": "0d4bf8bb-b261-4829-a5e9-2bb6a3d53394",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "address_type",
+                    "value": "{\"default\":\"\",\"residential\":\"\",\"commercial\":\"\",\"industrial\":\"\"}"
+                },
+                {
+                    "id": "77db3156-ec6c-49e1-89bc-c0c1183b9d06",
+                    "type": "service_offering",
+                    "type_id": "96cf61e7-87a1-4d2d-867a-808161568979",
+                    "key": "geofence_list",
+                    "value": "[]"
+                }
+            ]
+        },
+        "service_offering_order_flows": {
+            "added": [
+                "96cf61e7-87a1-4d2d-867a-808161568979"
+            ],
+            "removed": [
+            ]
+        }
+    },
+    "Express_1hour": {
+        "service_offering": {
+            "id": "6263b847-c003-44f0-8734-9d760669918b",
+            "name": "[AutoQA] Express 1hr",
+            "service_type": "express",
+            "service_time": 60,
+            "is_default": false,
+            "enabled": true,
+            "earliest_pickup_id": "00ef5fbf-ed63-4c4e-a34a-73402b68e89c",
+            "latest_pickup_id": "c9d7f5ba-4b10-4adf-9c41-d2dd2f722df5",
+            "earliest_dropoff_id": "38fe9777-5607-494e-a08e-baffed2cd2fb",
+            "latest_dropoff_id": "fc61302d-689f-48fd-84f6-c3cf066008f7",
+            "pricing_id": "ce768cea-014e-4a03-8456-932648da304e",
+            "order_flow_id": "",
+            "display_name": {
+                "en": "[AutoQA]Express - 1 hour",
+                "zh": "[AutoQA]快遞 - 一小時",
+                "ms": "",
+                "vi": "",
+                "th": ""
+            }
+        },
+        "grouped_configurations": {
+            "configurations": [
+                {
+                    "id": "9f23d0c3-0c22-4352-ab47-725c89a2462c",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "allow_unable_to_pickup",
+                    "value": ""
+                },
+                {
+                    "id": "9cba1225-d831-478a-bdfd-0bbd834d2bad",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "disable_contact_sender",
+                    "value": "false"
+                },
+                {
+                    "id": "41d923e3-6620-4919-b7e9-8dfd8f53cf4a",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "pickup_geolocation",
+                    "value": "false"
+                },
+                {
+                    "id": "6ed7f377-17c4-43fc-96d6-55b5b51c2a01",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "pickup_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "b83ed124-a7c4-4246-99c2-decba4433cf5",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "pickup_qr_or_passcode",
+                    "value": "false"
+                },
+                {
+                    "id": "ff35b22d-63fc-4e52-ae7c-b4a5f545e4ab",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "pickup_call_log",
+                    "value": "false"
+                },
+                {
+                    "id": "683d86b2-9f16-4e39-825c-c6aa1be2129a",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "pickup_reported_sub_order_count",
+                    "value": "false"
+                },
+                {
+                    "id": "0137ace6-8936-43e0-8915-962ad8704fbf",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "disable_back_to_pickup_point",
+                    "value": "false"
+                },
+                {
+                    "id": "befe68cf-d359-484e-a35b-b6f64082321a",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "disable_contact_recipient",
+                    "value": "false"
+                },
+                {
+                    "id": "65049654-d32d-47e2-8920-b8824d8b7d7d",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "disable_drop_off",
+                    "value": "false"
+                },
+                {
+                    "id": "6f1832e6-8199-4f78-a095-2b5f7ca1c6af",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "disable_no_signature",
+                    "value": "false"
+                },
+                {
+                    "id": "656f87d2-d5df-4b6c-86a0-d4484f020b8a",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "disable_reschedule",
+                    "value": "false"
+                },
+                {
+                    "id": "3827a191-b839-46e7-acf4-405b1707b544",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "enable_self_collection",
+                    "value": "false"
+                },
+                {
+                    "id": "1bac9f55-192f-4174-8753-f7f18a33a359",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "dropoff_geolocation",
+                    "value": "false"
+                },
+                {
+                    "id": "0b10e819-9a19-4e5e-96b3-431a0b8da7e5",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "dropoff_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "71871e73-d13e-4ac7-900a-54cbea2cf3aa",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "dropoff_qr_or_passcode",
+                    "value": "false"
+                },
+                {
+                    "id": "571a8e28-a5ab-4b52-a55c-715864fc5b55",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "dropoff_signature_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "c88735ec-2b29-4bf8-91af-041e2076aec2",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "dropoff_recipient_verify_code",
+                    "value": "false"
+                },
+                {
+                    "id": "63c2fd96-a531-4662-841d-81d511315960",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "freight_collect",
+                    "value": "false"
+                },
+                {
+                    "id": "6c732767-7d74-44a6-9874-c48f7a4c0116",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "can_outsource",
+                    "value": "false"
+                },
+                {
+                    "id": "6c58b741-3227-4f88-917b-714f5a30d43b",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "outsource_partners",
+                    "value": ""
+                },
+                {
+                    "id": "aef8c697-c52a-4d63-bd74-b9eb9b19ae34",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "min_cod",
+                    "value": "0"
+                },
+                {
+                    "id": "c79db348-77c2-476d-94dd-806091bd27ae",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "max_cod",
+                    "value": "5000"
+                },
+                {
+                    "id": "d99dddab-9a1d-4436-a3fb-e1ea1cdc53b5",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "always_reliable",
+                    "value": "true"
+                },
+                {
+                    "id": "9482144a-6327-4359-965c-6cefb65e32b4",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "prevent_duplicate_crn",
+                    "value": "true"
+                },
+                {
+                    "id": "75cf879a-ead8-4e19-867e-3eade26c311f",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "enable_bundle_order",
+                    "value": "false"
+                },
+                {
+                    "id": "227c8d2e-d0c7-434c-8f88-7f4c03f5247a",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "pickup_country",
+                    "value": ""
+                },
+                {
+                    "id": "ed1f3116-00f8-48b3-8851-7094444c2e38",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "dropoff_country",
+                    "value": ""
+                },
+                {
+                    "id": "8604f2be-cf49-4aae-afbb-5f4a73bec49d",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "release_time",
+                    "value": "30"
+                },
+                {
+                    "id": "8db6a095-85d1-47c3-aefa-0eaa3a2396b0",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "shipping_fee",
+                    "value": "0"
+                },
+                {
+                    "id": "952d3ae8-ac72-4bc3-8a84-792dcf985198",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "free_shipping_threshold",
+                    "value": ""
+                },
+                {
+                    "id": "8ddf16a7-944e-4df4-9a56-1c8f91a40eba",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "pickup_expiry_time",
+                    "value": ""
+                },
+                {
+                    "id": "8d7c8cd6-bf8d-4379-b274-0fd5135fa920",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "allow_vehicle_selection",
+                    "value": "true"
+                },
+                {
+                    "id": "3e546094-46e1-4ab2-92d9-df37a7a579c0",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "agent_tiers",
+                    "value": "[]"
+                },
+                {
+                    "id": "691687b1-898f-4156-a61e-e90807c8b878",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "multi_stop_pricings",
+                    "value": "[]"
+                },
+                {
+                    "id": "ac3c2bec-e58a-472f-adb0-021ccf7048dd",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "standard_dropoff_types",
+                    "value": ""
+                },
+                {
+                    "id": "c8fa6f6e-7507-44a3-849e-075d3aaa373b",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "self_pickup_store_types",
+                    "value": ""
+                },
+                {
+                    "id": "67b685ab-ab17-4e59-974f-f1a51fcb5028",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "warehouse",
+                    "value": ""
+                },
+                {
+                    "id": "4bc8d205-82cb-4108-80ce-f21dd846202a",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "address_type",
+                    "value": "{\"default\":\"09:00-23:00\",\"residential\":\"10:00-23:00\",\"commercial\":\"10:00-18:00\",\"industrial\":\"11:00-18:00\"}"
+                },
+                {
+                    "id": "80c908d0-7916-4393-94d4-edf5c065d862",
+                    "type": "service_offering",
+                    "type_id": "6263b847-c003-44f0-8734-9d760669918b",
+                    "key": "geofence_list",
+                    "value": "[]"
+                }
+            ]
+        },
+        "service_offering_order_flows": {
+            "added": [
+                "6263b847-c003-44f0-8734-9d760669918b"
+            ],
+            "removed": [
+            ]
+        }
+    },
+    "Express_2hour": {
+        "service_offering": {
+            "id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+            "name": "[AutoQA] Express - 2hr",
+            "service_type": "express",
+            "service_time": 120,
+            "is_default": false,
+            "enabled": true,
+            "earliest_pickup_id": "717e0bb0-55f0-43ab-bb24-a4e0bbc17381",
+            "latest_pickup_id": "70a5a84a-069c-46db-bf99-f6df55bd4510",
+            "earliest_dropoff_id": "87fde28a-1048-4f68-9cf0-6e4196506b85",
+            "latest_dropoff_id": "b5a88f3c-c95a-40db-8de3-fe4ca20fb5f4",
+            "pricing_id": "ce768cea-014e-4a03-8456-932648da304e",
+            "order_flow_id": "",
+            "display_name": {
+                "en": "[AutoQA] Express - 2hr",
+                "zh": "[AutoQA]快遞 - 二小時",
+                "ms": "",
+                "vi": "",
+                "th": ""
+            }
+        },
+        "grouped_configurations": {
+            "added": [
+                "b7e809ab-7573-476f-8ea3-dc6437da353b"
+            ],
+            "removed": []
+        },
+        "service_offering_order_flows": {
+            "configurations": [
+                {
+                    "id": "e50a2fcd-2183-427d-ad73-9ca0b2ad273e",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "allow_unable_to_pickup",
+                    "value": ""
+                },
+                {
+                    "id": "236cefe0-4cde-4bcb-acc1-b99ddf7ea67d",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "disable_contact_sender",
+                    "value": "false"
+                },
+                {
+                    "id": "dff77040-5be4-41a3-9079-89f87e10620e",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "pickup_geolocation",
+                    "value": "false"
+                },
+                {
+                    "id": "566d454f-9460-4617-aa3f-4f0db5451e59",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "pickup_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "e0c5872b-ed6e-40a2-b033-fe25659ea56d",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "pickup_qr_or_passcode",
+                    "value": "false"
+                },
+                {
+                    "id": "61ce4347-9ea0-44d3-b786-9fd0396f67d8",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "pickup_call_log",
+                    "value": "false"
+                },
+                {
+                    "id": "61e3dbff-0192-4a84-aafa-c79ae7d46c17",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "pickup_reported_sub_order_count",
+                    "value": "false"
+                },
+                {
+                    "id": "f49cfb8e-5428-476c-bf84-ca0ce108d6c1",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "disable_back_to_pickup_point",
+                    "value": "false"
+                },
+                {
+                    "id": "bc62cb56-b227-4faf-83dc-03fddf728bf0",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "disable_contact_recipient",
+                    "value": "false"
+                },
+                {
+                    "id": "7e4b43c2-51d8-4fdd-8275-416e73ab2254",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "disable_drop_off",
+                    "value": "false"
+                },
+                {
+                    "id": "110c78d5-349b-4372-8c07-443c31df91c7",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "disable_no_signature",
+                    "value": "false"
+                },
+                {
+                    "id": "218e2814-c806-4150-9604-82ae62e8f011",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "disable_reschedule",
+                    "value": "false"
+                },
+                {
+                    "id": "8db238e6-76fc-4ca8-8dc8-1ac1963e7bcb",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "enable_self_collection",
+                    "value": "false"
+                },
+                {
+                    "id": "cea04366-b1e5-40f7-b309-d22ec39e533c",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "dropoff_geolocation",
+                    "value": "false"
+                },
+                {
+                    "id": "e5dfbbc4-8cca-48e5-bbe5-27a09301bcdf",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "dropoff_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "b3d60e3e-78fe-47fe-b63c-511d511e73d3",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "dropoff_qr_or_passcode",
+                    "value": "false"
+                },
+                {
+                    "id": "7c49a777-5189-4d53-9098-d2072b47c824",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "dropoff_signature_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "609704d2-d691-410a-812f-63e45818aec7",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "dropoff_recipient_verify_code",
+                    "value": "false"
+                },
+                {
+                    "id": "c61a8bcb-b2fa-404e-9278-eeca09f0249d",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "freight_collect",
+                    "value": "false"
+                },
+                {
+                    "id": "4c85bc50-7c1c-4a55-b59f-d86cf5876f1f",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "can_outsource",
+                    "value": "false"
+                },
+                {
+                    "id": "b737c921-1773-4c10-88da-e45c263d7ef2",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "outsource_partners",
+                    "value": ""
+                },
+                {
+                    "id": "81447912-d1db-42d6-8a16-74913d8610b4",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "min_cod",
+                    "value": "0"
+                },
+                {
+                    "id": "37430852-8dc6-403d-98f5-55798e581eeb",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "max_cod",
+                    "value": "5000"
+                },
+                {
+                    "id": "d90d321d-3c3c-4556-8b34-273f72f0a222",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "always_reliable",
+                    "value": "false"
+                },
+                {
+                    "id": "865d3bff-53a4-4b8f-acd7-c179902d914d",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "prevent_duplicate_crn",
+                    "value": "false"
+                },
+                {
+                    "id": "312fba14-c326-473b-bbf2-a8b90bb188df",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "enable_bundle_order",
+                    "value": "false"
+                },
+                {
+                    "id": "3fa04bca-c61e-429e-a04b-1d9903615b34",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "pickup_country",
+                    "value": ""
+                },
+                {
+                    "id": "5cd8012a-4bbf-4dd0-8f0a-76e0bde0b8ef",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "dropoff_country",
+                    "value": ""
+                },
+                {
+                    "id": "569b0194-820a-491a-a3e2-3b0174c032bd",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "release_time",
+                    "value": "30"
+                },
+                {
+                    "id": "9c99214a-2512-4533-894a-859677568d39",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "shipping_fee",
+                    "value": "0"
+                },
+                {
+                    "id": "67a48296-4bb8-4801-b93b-1742ca93c4c5",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "free_shipping_threshold",
+                    "value": ""
+                },
+                {
+                    "id": "a1a056f8-7275-4d32-881d-fd79a6e6397f",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "pickup_expiry_time",
+                    "value": ""
+                },
+                {
+                    "id": "0d7c35b3-8e72-4edb-bfd7-1d5fbf55bc76",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "allow_vehicle_selection",
+                    "value": "false"
+                },
+                {
+                    "id": "6026bade-4948-422e-955d-faa1ce52d82f",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "agent_tiers",
+                    "value": "[]"
+                },
+                {
+                    "id": "90b678d0-5d27-4f09-99b5-6fa3961814b4",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "multi_stop_pricings",
+                    "value": "[]"
+                },
+                {
+                    "id": "1c31a106-5480-4f32-bbf8-ee287845c7ad",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "standard_dropoff_types",
+                    "value": ""
+                },
+                {
+                    "id": "b1301c75-c4f0-44bf-8726-796593b65b62",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "self_pickup_store_types",
+                    "value": ""
+                },
+                {
+                    "id": "9c4ef6e8-ea56-4db3-ba11-09381ebe8d1b",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "warehouse",
+                    "value": ""
+                },
+                {
+                    "id": "4452ea7d-f972-453d-9abf-d042b8a0bd5e",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "address_type",
+                    "value": "{\"default\":\"10:00-22:00\",\"residential\":\"10:00-22:00\",\"commercial\":\"09:00-18:00\",\"industrial\":\"09:00-18:00\"}"
+                },
+                {
+                    "id": "cf0d5d33-d73c-4269-a3c7-9b7ac8821df7",
+                    "type": "service_offering",
+                    "type_id": "b7e809ab-7573-476f-8ea3-dc6437da353b",
+                    "key": "geofence_list",
+                    "value": "[]"
+                }
+            ]
+        }
+    },
+    "Express_4hour": {
+        "service_offering": {
+            "id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+            "name": "[AutoQA] Express - 4 hours",
+            "service_type": "four_hours",
+            "service_time": 30,
+            "is_default": false,
+            "enabled": true,
+            "earliest_pickup_id": "45db9f20-25f4-42d0-86f6-352e4bee15df",
+            "latest_pickup_id": "4fab6eaf-6902-4cd8-818a-54525e149553",
+            "earliest_dropoff_id": "78d1502f-3656-411e-91e1-30c3fcaa2889",
+            "latest_dropoff_id": "d08f4881-8946-4325-8cf0-7e228ffa6391",
+            "pricing_id": "1a92ae15-a8ba-465e-a906-4b68d058eb49",
+            "order_flow_id": "",
+            "display_name": {
+                "en": "[AutoQA] Express - 4 hours",
+                "zh": "[AutoQA]快遞 - 四小時",
+                "ms": "",
+                "vi": "",
+                "th": ""
+            }
+        },
+        "grouped_configurations": {
+            "configurations": [
+                {
+                    "id": "6f03179d-8cef-48d8-ab3e-c47063501d65",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "allow_unable_to_pickup",
+                    "value": ""
+                },
+                {
+                    "id": "e191448e-17cc-48d2-b235-700990d9cff3",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "disable_contact_sender",
+                    "value": "false"
+                },
+                {
+                    "id": "e27aa03e-5115-42d2-b753-f3dda454e6ec",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "pickup_geolocation",
+                    "value": "false"
+                },
+                {
+                    "id": "0e2ef844-1c38-48ed-b14b-b59ea671f3d5",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "pickup_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "dabc8c8f-4edd-44ef-9f6f-08ded9a8cf0c",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "pickup_qr_or_passcode",
+                    "value": "false"
+                },
+                {
+                    "id": "e8541284-41c0-4122-8731-6a18faf5c907",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "pickup_call_log",
+                    "value": "false"
+                },
+                {
+                    "id": "49f57e0e-f8bf-4499-b43a-72b7fe091beb",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "pickup_reported_sub_order_count",
+                    "value": "false"
+                },
+                {
+                    "id": "b1def3b1-7c1b-4ef8-919c-a371be7be692",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "disable_back_to_pickup_point",
+                    "value": "false"
+                },
+                {
+                    "id": "6bb08a38-dee9-4b1a-9224-ea017955a782",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "disable_contact_recipient",
+                    "value": "false"
+                },
+                {
+                    "id": "351f2b02-34cf-499a-bdf7-5e08fe08de27",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "disable_drop_off",
+                    "value": "false"
+                },
+                {
+                    "id": "3ebd510d-fa4b-450b-a5be-3c954a517b2b",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "disable_no_signature",
+                    "value": "false"
+                },
+                {
+                    "id": "49df98e0-9f57-40b6-8caf-fb6fb60138d9",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "disable_reschedule",
+                    "value": "false"
+                },
+                {
+                    "id": "02f96fef-ade6-4540-a684-0d814c11d82b",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "enable_self_collection",
+                    "value": "false"
+                },
+                {
+                    "id": "29f031f2-c9c1-4d47-9f7a-2db206a41bc9",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "dropoff_geolocation",
+                    "value": "false"
+                },
+                {
+                    "id": "4769e232-fd36-46d6-9ff2-31278406524f",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "dropoff_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "ce654da5-860f-4fe1-a602-7745960718a5",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "dropoff_qr_or_passcode",
+                    "value": "false"
+                },
+                {
+                    "id": "66014a48-d4ea-4a7d-9168-296264c67c7a",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "dropoff_signature_photo",
+                    "value": "false"
+                },
+                {
+                    "id": "19456ec4-997a-4ccc-8d0f-34c3dedf9c81",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "dropoff_recipient_verify_code",
+                    "value": "false"
+                },
+                {
+                    "id": "8b95dcc7-055f-4610-886f-22e73a481168",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "freight_collect",
+                    "value": "false"
+                },
+                {
+                    "id": "cb2384ae-cafe-4709-bd66-bf64fd7aa8cb",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "can_outsource",
+                    "value": "false"
+                },
+                {
+                    "id": "c15aa3a0-16ed-43f6-8fa8-dcae189bbf6e",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "outsource_partners",
+                    "value": ""
+                },
+                {
+                    "id": "6b368721-2d9a-47df-b9d6-309b6066f731",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "min_cod",
+                    "value": "0"
+                },
+                {
+                    "id": "8c4a8f29-7d53-40c1-bf0a-a5f0bd8005bf",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "max_cod",
+                    "value": "5000"
+                },
+                {
+                    "id": "59c593b0-1c50-430b-999d-c511b0377f5e",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "always_reliable",
+                    "value": "true"
+                },
+                {
+                    "id": "4c6de9e7-566d-4d33-ad4a-2bf1ce45c6be",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "prevent_duplicate_crn",
+                    "value": "false"
+                },
+                {
+                    "id": "30d01923-5c12-43da-addd-347fcb69ec96",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "enable_bundle_order",
+                    "value": "false"
+                },
+                {
+                    "id": "115982bf-d543-42ea-bc15-2be8dc9e87ad",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "pickup_country",
+                    "value": ""
+                },
+                {
+                    "id": "d0694b4d-5d31-4b5b-a00b-90359f05092c",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "dropoff_country",
+                    "value": ""
+                },
+                {
+                    "id": "c9735f98-d0ca-49fa-93a8-0caa4a192644",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "release_time",
+                    "value": "30"
+                },
+                {
+                    "id": "46051ca9-082a-4d23-9e52-d1bd9e99e628",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "shipping_fee",
+                    "value": "0"
+                },
+                {
+                    "id": "4cf41162-7dbe-4951-8c77-0bad8a2cde2c",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "free_shipping_threshold",
+                    "value": ""
+                },
+                {
+                    "id": "f1ab95e4-5476-4599-bd31-1f73755b1c52",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "pickup_expiry_time",
+                    "value": ""
+                },
+                {
+                    "id": "af47a8a3-b95e-4b91-8a8f-02941b3dbc12",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "allow_vehicle_selection",
+                    "value": "false"
+                },
+                {
+                    "id": "dac00fb7-33b6-4b57-8462-0f120b8b0a8d",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "agent_tiers",
+                    "value": "[]"
+                },
+                {
+                    "id": "dfb564eb-0671-402c-8f86-3cafe48ca954",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "multi_stop_pricings",
+                    "value": "[]"
+                },
+                {
+                    "id": "21255be6-e766-4b1b-bdab-95de36ae37b8",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "standard_dropoff_types",
+                    "value": ""
+                },
+                {
+                    "id": "896af3c7-3e00-46ad-99c9-9bf197b01762",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "self_pickup_store_types",
+                    "value": ""
+                },
+                {
+                    "id": "636c31fa-614c-4584-b374-270664e86eff",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "warehouse",
+                    "value": ""
+                },
+                {
+                    "id": "08c2fa79-fc9e-4c8a-8b3e-f0674062012a",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "address_type",
+                    "value": "{\"default\":\"10:00-22:00\",\"residential\":\"10:00-22:00\",\"commercial\":\"09:00-18:00\",\"industrial\":\"09:00-18:00\"}"
+                },
+                {
+                    "id": "5457b3c5-7eb5-407e-ba53-60452692dd47",
+                    "type": "service_offering",
+                    "type_id": "f8d8a36b-6a71-4095-b620-9943d85d0b27",
+                    "key": "geofence_list",
+                    "value": "[]"
+                }
+            ]
+        },
+        "service_offering_order_flows": {
+            "added": [
+                "f8d8a36b-6a71-4095-b620-9943d85d0b27"
+            ],
+            "removed": []
+        }
+    }
+}

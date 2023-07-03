@@ -1,0 +1,981 @@
+{
+    "Default": {
+        "pickup_options": {
+            "default": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "express": {
+                "actions": {
+                    "geolocation": true,
+                    "qr_or_passcode": true,
+                    "pickup_photo": true,
+                    "pickup_call_log": true,
+                    "reported_sub_order_count": true
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "exchange": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "last_leg": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "next_day": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "same_day": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "first_leg": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "collection": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "four_hours": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": "NOT_ALLOWED"
+            },
+            "fulfillment": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "international_postal": {
+                "actions": {
+                    "geolocation": true,
+                    "qr_or_passcode": true,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "international_express": {
+                "actions": {
+                    "geolocation": true,
+                    "qr_or_passcode": true,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            }
+        },
+        "dropoff_options": {
+            "default": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": true,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": true,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "express": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "exchange": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "last_leg": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "next_day": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "same_day": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "first_leg": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "collection": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "four_hours": {
+                "disable_no_signature": false,
+                "disable_reschedule": false,
+                "disable_drop_off": false,
+                "enable_self_collection": false,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": false,
+                "disable_contact_recipient": false
+            },
+            "fulfillment": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            }
+        }
+    },
+    "Basic": {
+        "pickup_options": {
+            "default": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "express": {
+                "actions": {
+                    "geolocation": true,
+                    "qr_or_passcode": true,
+                    "pickup_photo": true,
+                    "pickup_call_log": true,
+                    "reported_sub_order_count": true
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "exchange": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "last_leg": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "next_day": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "same_day": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "first_leg": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "collection": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "four_hours": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "fulfillment": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "international_postal": {
+                "actions": {
+                    "geolocation": true,
+                    "qr_or_passcode": true,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "international_express": {
+                "actions": {
+                    "geolocation": true,
+                    "qr_or_passcode": true,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            }
+        },
+        "dropoff_options": {
+            "default": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": true,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": true,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "express": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "exchange": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "last_leg": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "next_day": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "same_day": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "first_leg": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "collection": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "four_hours": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "fulfillment": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            }
+        }
+    },
+    "Special_Setting": {
+        "pickup_options": {
+            "default": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "express": {
+                "actions": {
+                    "geolocation": true,
+                    "qr_or_passcode": true,
+                    "pickup_photo": true,
+                    "pickup_call_log": true,
+                    "reported_sub_order_count": true
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "exchange": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "last_leg": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "next_day": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "same_day": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "first_leg": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "collection": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "four_hours": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "fulfillment": {
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "international_postal": {
+                "actions": {
+                    "geolocation": true,
+                    "qr_or_passcode": true,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            },
+            "international_express": {
+                "actions": {
+                    "geolocation": true,
+                    "qr_or_passcode": true,
+                    "pickup_photo": false,
+                    "pickup_call_log": false,
+                    "reported_sub_order_count": false
+                },
+                "disable_contact_sender": false,
+                "allow_unable_to_pickup": ""
+            }
+        },
+        "dropoff_options": {
+            "default": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": true,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": true,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "express": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "exchange": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "last_leg": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "next_day": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "same_day": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "first_leg": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "collection": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            },
+            "four_hours": {
+                "disable_no_signature": false,
+                "disable_reschedule": false,
+                "disable_drop_off": false,
+                "enable_self_collection": false,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": false,
+                "disable_contact_recipient": false
+            },
+            "fulfillment": {
+                "disable_no_signature": true,
+                "disable_reschedule": true,
+                "disable_drop_off": false,
+                "enable_self_collection": true,
+                "actions": {
+                    "geolocation": false,
+                    "qr_or_passcode": false,
+                    "dropoff_photo": false,
+                    "signature_photo": false,
+                    "recipient_verify_code": false
+                },
+                "disable_back_to_pickup_point": true,
+                "disable_contact_recipient": true
+            }
+        },
+        "id": "1033",
+        "name": "123",
+        "website": "",
+        "phone": "51836592",
+        "contact_person_name": "Gerben Chen",
+        "type": " Individual",
+        "status": " Active",
+        "email_enabled": false,
+        "pay_on_success": "",
+        "webhook": "",
+        "owner": "",
+        "created_at": "2022-02-14T08:15:51.223Z",
+        "updated_at": "2022-10-27T03:37:03.324Z",
+        "master_code": "",
+        "core": "",
+        "fragile": false,
+        "delivery_note": false,
+        "cash_on_delivery": "",
+        "bank_name": "",
+        "bank_account": "",
+        "bank_holder_name": "",
+        "pick_up_sms_enabled": false,
+        "reliable": false,
+        "tier_id": "",
+        "next_tier_id": "",
+        "is_tier_subscribed": false,
+        "business_registration": " ",
+        "is_credit_line": false,
+        "tier_subscribed_at": " ",
+        "referral": " ",
+        "logo": " ",
+        "is_prematchable": true,
+        "is_own_crew": false,
+        "use_own_surge": false,
+        "surge_cap": 100,
+        "surge_step": 0,
+        "surge_sd": 2,
+        "check_client_reference_number": false,
+        "skip_google": false,
+        "can_outsource": false,
+        "dropoff_options_old": " ",
+        "can_exchange": false,
+        "exchange_rate": " ",
+        "can_initial_bundle": false,
+        "public_name": " ",
+        "rating_sms_enabled": false,
+        "enroute_sms_enabled": false,
+        "exchange_destination": "PICKUP",
+        "reschedule_sms_enabled": false,
+        "mask_item_enabled": false,
+        "allow_unable_to_pickup": "NOT_ALLOWED",
+        "pickup_options_old": "",
+        "project": "",
+        "fixed_outsource_partner": "",
+        "freight_collect": false,
+        "shopify_email_enabled": false,
+        "matching_options": {
+            "can_pool": true,
+            "can_dispatch": true,
+            "can_prematch": true,
+            "can_job_assign": true
+        },
+        "sop_options": {
+            "sop_commission": 0,
+            "referral_promo_code": " "
+        },
+        "can_multi_parcel": false,
+        "tw_invoice_options": {
+            "donation": false,
+            "tax_id_number": "",
+            "love_code": "",
+            "email": ""
+        },
+        "gerben.chen@pickupp.io": "",
+        "referral_codes": {
+            "sop": "2VW3ZVM",
+            "_sop": "sop",
+            "delivery": "3516DEO",
+            "_delivery": "delivery",
+            "convenience_store_enabled": "false",
+            "_convenience_store_enabled": "convenience_store_enabled"
+        },
+        "convenience_store_enabled": false,
+        "_convenience_store_enabled": "convenience_store_enabled",
+        "credit_profile": {
+            "id": "1804",
+            "payment_type": "CREDIT",
+            "credit": "940",
+            "credit_expire_at": "2122-04-22T07:13:22.858Z",
+            "credit_purchase_rate": 1,
+            "entity_id": 1033,
+            "created_at": "2022-04-22T07:13:22.941Z",
+            "updated_at": "2022-10-13T02:00:40.844Z",
+            "vendor": ""
+        }
+    },
+    "TurnOnAllSpecialSetting":{
+        "pay_on_success": true,
+        "core": true,
+        "fragile": true,
+        "delivery_note": true,
+        "cash_on_delivery": true,
+        "pick_up_sms_enabled": true,
+        "reliable": true,
+        "is_own_crew" : true
+    },
+    "TurnOffAllSpecialSetting":{
+        "pay_on_success": false,
+        "core": false,
+        "fragile": false,
+        "delivery_note": false,
+        "cash_on_delivery": false,
+        "pick_up_sms_enabled": false,
+        "reliable": false,
+        "is_own_crew" : false
+    }
+}

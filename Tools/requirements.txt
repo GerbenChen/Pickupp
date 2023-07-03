@@ -1,0 +1,13 @@
+mysql-connector-python
+testrail-api
+requests
+openpyxl
+pymysql
+sshtunnel
+psycopg2-binary
+pandas
+selenium
+webdriver_manager
+slack-sdk
+dictdiffer
+packaging
